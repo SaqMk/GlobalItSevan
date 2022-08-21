@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 33vw;
+  margin-top: 2.4vw;
+}
+.title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 134.8%;
+  letter-spacing: 0.055em;
+  color: #0a072d;
+}
+#dark{
+  color: white;
+}
+
+/* Mobile */
+.mobileTitle{
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 134.8%;
+  letter-spacing: 0.055em;
+  color: #0a072d;
+}

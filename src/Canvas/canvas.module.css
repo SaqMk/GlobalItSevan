@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8vw;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.title {
+  font-size: 2vw;
+  font-weight: 700;
+  margin-left: 4vw;
+}
+.content {
+  font-size: 1vw;
+  margin-left: 4vw;
+}
+.play {
+  width: 31vw;
+  height: 21vw;
+}
+.video {
+  cursor: pointer;
+  width: 30vw;
+  margin-left: 2vw;
+}
+
+/* Mobile */
+.mobileContainer {
+  width: 100%;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+}
+.mobileTitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5vw;
+  line-height: 134.8%;
+  color: #111111;
+}
+.mobileContent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.3vw;
+  line-height: 134.8%;
+  letter-spacing: 0.055em;
+  color: #28272e;
+  margin-top: 2.5vw;
+}
+.mobilePlay{
+    width: 75vw;
+    height: 59vw;
+}
+.mobileVideo{
+    width: 70vw;
+    margin-top: 2vw;
+}
+
+#dark .content{
+  color: white;
+}
+#dark .title{
+  color: white;
+}
+#dark .mobileContent{
+  color: white;
+}
+#dark .mobileTitle{
+  color: white;
+}

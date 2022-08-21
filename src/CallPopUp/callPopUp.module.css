@@ -1,0 +1,126 @@
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  align-items: center;
+  opacity: 0;
+  animation: ani 0.25s forwards;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.callPopUp {
+  width: 35vw;
+  height: 37.5vw;
+  border-radius: 1.3vw;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(216, 216, 216);
+}
+.logo1 {
+  width: 14vw;
+}
+.logo2{
+    width: 14vw;
+  }
+.itemSoc {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 26vw;
+  height: 9.6vw;
+}
+.itemInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 26vw;
+  height: 15vw;
+  margin-bottom: 1vw;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5vw;
+  font-weight: 400;
+  font-size: 1.7vw;
+
+  color: #000000;
+}
+.socButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  height: 4vw;
+  border-radius: 0.8vw;
+  border: none;
+  color: white;
+  font-size: 1vw;
+}
+.socButton:nth-child(1) {
+  background: #3e3e3e;
+}
+.socButton:nth-child(2) {
+  background: rgba(37, 211, 102, 0.8);
+}
+.socButton:nth-child(3) {
+  background: rgba(89, 38, 124, 0.8);
+  margin-top: 1.6vw;
+}
+.socButton:nth-child(4) {
+  background: rgba(0, 136, 204, 0.8);
+  margin-top: 1.6vw;
+}
+.socTitle {
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.1vw;
+  margin-left: 0.7vw;
+}
+.inputs {
+  width: 24vw;
+  height: 4vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background: rgba(122, 122, 122, 0.25);
+  border-radius: 0.8vw;
+  border: none;
+  font-size: 1vw;
+}
+.inputs::placeholder {
+  font-size: 1vw;
+  color: black;
+}
+#light .logo2 {
+  display: none;
+}
+#dark {
+  background: #120426;
+  border: none;
+}
+#dark .logo1 {
+  display: none;
+}
+#dark .title {
+  color: white;
+}
+#dark .inputs::placeholder {
+  color: white;
+}
+#dark .inputs {
+  color: white;
+}

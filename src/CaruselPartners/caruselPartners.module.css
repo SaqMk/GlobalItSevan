@@ -1,0 +1,33 @@
+.item {
+  align-items: center;
+  width: 21vw !important;
+  height: 21vw;
+  margin-top: 5vw;
+  margin-left: 1.6vw;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1.4vw;
+}
+.mobileItem {
+  align-items: center;
+  width: 20vw !important;
+  height: 20vw;
+  margin-top: 5vw;
+  margin-left: 1.6vw;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1.4vw;
+}
+#dark {
+  background: #120426;
+}
+.partnerImg {
+  width: 13vw;
+  height: 13vw;
+  margin: 0 auto;
+}
+.mobilePartnerImg {
+  width: 13vw;
+  height: 13vw;
+  margin: 0 auto;
+}

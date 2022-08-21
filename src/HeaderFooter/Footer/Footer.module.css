@@ -1,0 +1,157 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #160f3c;
+  width: 100%;
+  height: 40vw;
+  bottom: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 80vw;
+  height: 24vw;
+  margin-top: 57px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5.8vw;
+}
+.wrapper {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper:nth-child(2),
+:nth-child(3),
+:nth-child(4) {
+  width: fit-content;
+}
+.logoFooter {
+  width: 17vw;
+}
+.aboutFooter {
+  color: white;
+  text-align: center;
+  margin-top: 2.5vw;
+  font-size: 1vw;
+}
+.socialFooter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 2.7vw;
+  margin-top: auto;
+}
+.socialFooter img {
+  width: 2.4vw;
+  cursor: pointer;
+}
+.title2 {
+  font-size: 1.4vw;
+  color: white;
+}
+.content2 {
+  color: white;
+  font-size: 1vw;
+  margin-top: 1vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+.content:first-child {
+  margin-top: 1.2vw;
+}
+.title3 {
+  font-size: 1.4vw;
+  color: white;
+  margin-top: 1vw;
+}
+.title3:first-child {
+  margin-top: 0;
+}
+.title4 {
+  color: white;
+  font-size: 1vw;
+  font-weight: bold;
+}
+.content4 {
+  color: white;
+  font-size: 1vw;
+  margin-top: 1.8vw;
+}
+.contacts {
+  color: white;
+  margin-top: 1.8vw;
+  font-weight: bold;
+  font-size: 1vw;
+}
+.phone {
+  color: white;
+  margin-top: 0.3vw;
+  font-size: 1vw;
+}
+
+/* Mobile */
+
+.mobileFooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #160f3c;
+}
+.mobileWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 93%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 7vw;
+  margin-bottom: 4vw;
+}
+.mobileLogoFooter {
+  width: 21vw;
+  margin-top: 5vw;
+}
+.mobileFooterContainer {
+  display: flex;
+  width: 75%;
+  height: 14vw;
+  margin-top: 5vw;
+  justify-content: space-between;
+}
+.mobileFooterContainerContact {
+  display: flex;
+  width: 75%;
+  height: 35vw;
+  margin-top: 5vw;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.mobileFooterItems {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.mobileFooterTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.7vw;
+  line-height: 134.8%;
+  color: #ffffff;
+}
+.mobileFooterContent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 154.8%;
+  letter-spacing: 0.055em;
+  color: #ffffff;
+}
+
+.icons{
+  font-size: 2.4vw;
+  color:rgb(255, 255, 255)
+}

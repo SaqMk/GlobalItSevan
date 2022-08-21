@@ -1,0 +1,241 @@
+button {
+  cursor: pointer;
+}
+.container {
+  margin-top: 2.4vw;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 46vw !important;
+  background: #fdfdfd;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 124px rgba(0, 0, 0, 0.05);
+  border-radius: 1.4vw;
+  margin: 0 1.8vw;
+}
+.imgContainer {
+  background-color: blue;
+  border-radius: 1.4vw;
+
+  width: 100%;
+  height: 20vw;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.2vw;
+}
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 20vw;
+  width: 49%;
+  padding: 1vw 0.5vw 0.5vw 1.2vw;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.itemImg {
+  width: 100%;
+  height: 30vw;
+  margin: 0 auto;
+}
+.titleItem {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3vw;
+  font-weight: 600;
+  line-height: 1.9vw;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 134.8%;
+  letter-spacing: 0.055em;
+  color: #1d607a;
+}
+
+.content {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 134.8%;
+  letter-spacing: 0.055em;
+  color: #000000;
+  opacity: 0.5;
+}
+.apply {
+  width: 19vw;
+  height: 4.4vw;
+  background: #1d607a;
+  border-radius: 7vw;
+  border: none;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #ffffff;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 9.8vw;
+  height: 8vw;
+  margin-top: 4vw;
+  margin-left: 5vw;
+}
+.infoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.iconInfo {
+  width: 2vw;
+}
+.about {
+  letter-spacing: 0.055em;
+  color: #000000;
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 134.8%;
+}
+.star {
+  margin-left: 8vw;
+}
+.progForStudy {
+  width: 19vw;
+  height: 4.4vw;
+  border-radius: 7vw;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  border: 2px solid #1d607a;
+  color: #1d607a;
+  border-radius: 100px;
+}
+
+/* Mobile */
+.mobileContainer {
+  margin-top: 5vw;
+}
+.mobileItem {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 65vw !important;
+  height: 65vw;
+  background: #fdfdfd;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 124px rgba(0, 0, 0, 0.05);
+  border-radius: 1.4vw;
+  margin: 0 1.8vw;
+}
+.mobileImgContainer {
+  background-color: blue;
+  border-radius: 1.4vw;
+
+  width: 100%;
+  height: 30vw;
+}
+.mobileWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.mobileContentContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 33vw;
+  width: 49%;
+  padding: 1vw 0.5vw 0.5vw 1.2vw;
+}
+.mobileInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 17vw;
+  height: 8vw;
+  margin-top: 4vw;
+  margin-left: 5vw;
+}
+.mobileTitleItem {
+  font-size: 2vw;
+}
+.mobileTitle {
+  font-size: 4vw;
+  color: #1d607a;
+}
+.mobileContent {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  opacity: 0.5;
+  font-size: 1.8vw;
+}
+.mobileApply {
+  width: 25vw;
+  height: 6.5vw;
+  background: #1d607a;
+  border-radius: 7vw;
+  border: none;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7vw;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #ffffff;
+}
+.mobileInfoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5vw;
+}
+.mobileIconInfo {
+  width: 4vw;
+}
+.mobileAbout {
+  color: #000000;
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+.mobileProgForStudy {
+  width: 25vw;
+  height: 6.5vw;
+  border-radius: 7vw;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7vw;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  border: 2px solid #1d607a;
+  color: #1d607a;
+  border-radius: 100px;
+}

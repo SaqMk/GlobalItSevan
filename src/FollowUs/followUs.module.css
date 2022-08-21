@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vw;
+  margin: 5vw 0 7vw 0;
+  background: linear-gradient(94.96deg, #7a56df 0%, #65bff2 100%);
+  border-radius: 3vw;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 6.7vw;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: rgb(255, 255, 255);
+}
+.emailInput {
+  width: 16vw;
+  height: 4vw;
+  background: #efefef;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+  border-radius: 114px;
+  padding-left: 2vw;
+  border: none;
+}
+.send {
+  width: 13vw;
+  height: 4vw;
+  background: linear-gradient(90deg, #ef5a06 -2.32%, #d89b00 100%);
+  box-shadow: 0px 0px 25px rgba(220, 143, 2, 0.2);
+  border-radius: 11vw;
+  color: white;
+  border: none;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #ffffff;
+}
+
+
+/* Mobile */
+.mobileContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vw;
+  margin: 5vw 0 7vw 0;
+  background: linear-gradient(94.96deg, #7a56df 0%, #65bff2 100%);
+  border-radius: 3vw;
+}
+
+.mobileTitle{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5vw;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: rgb(255, 255, 255);
+}
+.mobileWrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 23vw;
+}
+.mobileEmailInput{
+  width: 50vw;
+  height: 6vw;
+  background: #efefef;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+  border-radius: 114px;
+  padding-left: 2vw;
+  border: none;
+}
+.mobileSend{
+  width: 25vw;
+  height: 6vw;
+  background: linear-gradient(90deg, #ef5a06 -2.32%, #d89b00 100%);
+  box-shadow: 0px 0px 25px rgba(220, 143, 2, 0.2);
+  border-radius: 11vw;
+  color: white;
+  border: none;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7vw;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #ffffff;
+}
